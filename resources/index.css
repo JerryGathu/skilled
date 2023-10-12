@@ -2053,17 +2053,24 @@
   .fs-sm{
     font-size: 0.6em;
   }
-  body{
+  html,body{
     width: 100vw;
+    overflow-x: hidden;
+  }
+  .point-img{
+    left: -10%;
   }
   @media only screen and (max-width: 540px){
-     .feature-list-cont{
-      
-      width: 100%
+     .skilled-icon{
+      margin-left:0 !important;
      }
      .feature-list {
       width: 100%;
-      background-color: #1E2369;
-      color: #2A8B4B;
+     }
+     .feature-container{
+      /* margin-right: 20px !important; */
+     }
+     .point-img{
+      display: none !important;
      }
   }
