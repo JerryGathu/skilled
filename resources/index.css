@@ -153,7 +153,7 @@
   .building{
     width: 100% !important;
   }
-
+  
   @media only screen and (max-width: 540px){
      .feature-list {
       width: 100%;
@@ -228,11 +228,16 @@
      }
   }
 
-  @media only screen and (min-width: 550px ) and (max-width: 991px) {
+  @media only screen and (min-width: 550px ) and (max-width: 999px) {
      .img-2{
       left: -50%;
      }
-     /* .img-4{
-      left: -10%
-     } */
+     .feature-container{
+      margin-right: 2% !important;
+    }  
+  }
+  @media only screen and (max-width: 1000px){
+     .feature-container{
+      margin: auto;
+     }
   }
