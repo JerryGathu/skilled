@@ -141,20 +141,17 @@
   .btn-toggle{
     display: none;
   }
+  .intro-text{
+    left: 0;
+  }
 
   @media only screen and (max-width: 540px){
-     .skilled-icon{
-      margin-left:0 !important;
-     }
      .feature-list {
       width: 100%;
      }
      .feature-container{
-      /* margin-right: 20px !important; */
+      margin-top: 20%;
       width: 100% !important;
-     }
-     .point-img{
-      display: none !important;
      }
      .function-cards{
         flex-direction: column !important;
@@ -181,6 +178,9 @@
      .img-5{
       display: none !important;
      }
+     .green-img{
+       width: 70%;
+     }
      .img-2{
       top: 30%;
       left: -30%;
@@ -191,6 +191,16 @@
      }
      header > nav > button{
       visibility: hidden;
+     }
+     .intro-cont{
+      flex-direction: column;
+     }
+     .intro-img{
+      width: 100% !important;
+     }
+     .intro-text{      
+       left: 30% !important;
+       bottom: -30% !important;
      }
   }
 
