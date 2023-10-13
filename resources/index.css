@@ -144,6 +144,15 @@
   .intro-text{
     left: 0;
   }
+  .mr-2{
+    margin-right: 0.5rem;
+  }
+  .zip-code{
+    width: 100% !important;
+  }
+  .building{
+    width: 100% !important;
+  }
 
   @media only screen and (max-width: 540px){
      .feature-list {
@@ -201,6 +210,21 @@
      .intro-text{      
        left: 30% !important;
        bottom: -30% !important;
+     }
+     .company{
+      align-items: center;
+      flex-direction: column;
+     }
+     .prefecture{
+      align-items: center;
+      flex-direction: column;
+     }
+     .email{
+      align-items: center;
+      flex-direction: column;
+     }
+     .contact-form{
+      width: 100% !important;
      }
   }
 
